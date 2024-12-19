@@ -1,0 +1,38 @@
+﻿<Window x:Class="FractalTree.Main.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Fractal Tree" Height="700" Width="800">
+    <Grid>
+        <!-- Канва для отрисовки дерева -->
+        <Canvas Name="MainCanvas" Background="White" Margin="0,50,0,0" />
+
+        <!-- Панель настроек -->
+        <StackPanel Orientation="Vertical" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10">
+            <Button Name="ResetButton" Content="Reset" Width="80" Height="30" Click="ResetButton_Click" />
+
+            <TextBlock Text="Глубина рекурсии:" />
+            <TextBox Name="DepthInput" Text="6" Width="80" Margin="0,0,0,10" />
+
+            <TextBlock Text="Вероятность ветки (0-1):" />
+            <TextBox Name="ProbabilityInput" Text="0.8" Width="80" Margin="0,0,0,10" />
+
+            <TextBlock Text="Базовый угол ветвления:" />
+            <TextBox Name="AngleInput" Text="30" Width="80" Margin="0,0,0,10" />
+
+            <TextBlock Text="Ветвей на узле:" />
+            <TextBox Name="BranchesInput" Text="3" Width="80" Margin="0,0,0,10" />
+
+            <TextBlock Text="Длина ствола:" />
+            <TextBox Name="TrunkLengthInput" Text="150" Width="80" Margin="0,0,0,10" />
+
+            <TextBlock Text="Фактор уменьшения длины (0-1):" />
+            <TextBox Name="LengthReductionInput" Text="0.7" Width="80" Margin="0,0,0,10" />
+
+            <TextBlock Text="Плотность веток(1-):" />
+            <TextBox Name="BranchDensityInput" Text="2" Width="80" Margin="0,0,0,10" />
+
+            <TextBlock Text="Порог ветвления (0-1):" />
+            <TextBox Name="BranchingPointThresholdInput" Text="0.5" Width="80" Margin="0,0,0,10" />
+        </StackPanel>
+    </Grid>
+</Window>

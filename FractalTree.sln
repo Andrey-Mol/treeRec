@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractalTree.Main", "FractalTree.Main\FractalTree.Main.csproj", "{684BA24B-F8B3-4905-83D3-638B61FDF774}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{684BA24B-F8B3-4905-83D3-638B61FDF774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{684BA24B-F8B3-4905-83D3-638B61FDF774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{684BA24B-F8B3-4905-83D3-638B61FDF774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{684BA24B-F8B3-4905-83D3-638B61FDF774}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E070D84A-6F65-4C74-8103-1FBDD3CF95ED}
+	EndGlobalSection
+EndGlobal
